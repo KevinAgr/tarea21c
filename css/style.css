@@ -9,7 +9,7 @@
     --card-footer-color: ;
  }
  .card{
-     margin: 0 auto;
+     margin: 5px auto;
      background: var(--card-color);
      color:rgb(255, 255, 255);
      width: 75%;
@@ -61,22 +61,4 @@ img {
 
 .text-justify {
     text-align: justify;
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-  }
-
-.col {
-    padding: 10px;
-    margin: 10px;
-    background-color: yellow;
-}
-
-.col-25 {
-    padding: 10px;
-    margin: 10px;
-    background-color: yellow;
-    width: 50%;
 }
