@@ -1,0 +1,82 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+    --card-color: #1a237e;
+    --card-header-color: crimson;
+    --card-body-color: rgb(40, 4, 124);
+    --card-footer-color: ;
+ }
+ .card{
+     margin: 0 auto;
+     background: var(--card-color);
+     color:rgb(255, 255, 255);
+     width: 75%;
+     padding: 20px;
+     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+     border-radius: 20px;            
+ }
+ .card-header{
+     background: var(--card-header-color);            
+     margin: -20px;
+     padding: 20px;
+     border-radius: 20px 20px 0px 0px;
+ }
+ .card-body{
+     background: var(--card-body-color);
+     margin: -20px;
+     padding: 20px;
+     border-radius: 00px 00px 20px 20px;
+ }
+ .card-footer{
+     background: var(--card-footer-color);
+     margin: -20px;
+     padding: 20px;
+     border-radius: 00px 00px 20px 20px;
+     display: flex;
+     justify-content: space-between
+ }
+ a{
+     padding: 8px;
+     margin: 2px;
+     border-radius: 5px;
+     border: 1px solid white;
+     width: 100%;
+     text-align: center;
+     color: white;
+     text-decoration: none;
+ }
+ a:hover{
+     color: var(--card-body-color);
+     background:white;
+ }
+
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+  }
+
+.col {
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.col-25 {
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    width: 50%;
+}
